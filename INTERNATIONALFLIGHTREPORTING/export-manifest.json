@@ -1,0 +1,128 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": false,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "shareAllInputDatasets": false
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "departures_by_carriergroup",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 477
+      },
+      {
+        "name": "departures_by_month",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 1659
+      },
+      {
+        "name": "departures_by_month_windows",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 1695
+      },
+      {
+        "name": "departures_by_month_windows_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 477
+      },
+      {
+        "name": "departures_filtered",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 692030
+      },
+      {
+        "name": "departures_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 775152
+      },
+      {
+        "name": "passengers_by_airport",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 3176
+      },
+      {
+        "name": "passengers_by_airport_top20",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 360
+      },
+      {
+        "name": "passengers_filtered",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 373363
+      },
+      {
+        "name": "passengers_filtered_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 402017
+      }
+    ],
+    "includedSavedModels": [],
+    "includedManagedFolders": [
+      {
+        "id": "VuKi4k4N",
+        "name": "departures",
+        "size": 67408786
+      },
+      {
+        "id": "XM6YkltY",
+        "name": "Passengers",
+        "size": 51963126
+      }
+    ],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "INTERNATIONALFLIGHTREPORTING",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "7.0.2",
+  "generatedWithDSSConfVersion": "7020",
+  "exportedWithPlugins": [
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    }
+  ],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem"
+    },
+    "filesystem_folders": {
+      "name": "filesystem_folders",
+      "type": "Filesystem"
+    }
+  },
+  "usedCodeEnvRefs": [],
+  "hasPartitionedDataset": false
+}
